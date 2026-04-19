@@ -320,7 +320,7 @@ select {
     padding: 5px;
 }
 
-select:focus{
+select:focus {
     outline: none;
 }
 
@@ -378,7 +378,7 @@ select:focus{
     border: 1px solid #ff523b;
 }
 
-input:focus{
+input:focus {
     outline: none;
 }
 
@@ -444,7 +444,7 @@ td img {
 
 .total-price {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
 }
 
 .total-price table {
@@ -466,7 +466,7 @@ th:last-child {
 
 .account-page {
     padding: 50px 0;
-    background: radial-gradient(#fff, #ffd6d6); 
+    background: radial-gradient(#fff, #ffd6d6);
 }
 
 .form-container {
@@ -477,7 +477,8 @@ th:last-child {
     text-align: center;
     padding: 20px 0;
     margin: auto;
-    box-shadow: 0,0,20px,0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0, 0, 20px, 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
 .form-container span {
@@ -498,6 +499,7 @@ th:last-child {
     padding: 0 20px;
     position: absolute;
     top: 130px;
+    transition: transform 1s;
 }
 
 form input {
@@ -519,11 +521,11 @@ form .btn:focus {
     outline: none;
 }
 
-#Login-form {
+#LoginForm {
     left: -300px;
 }
 
-#Reg-form {
+#RegForm {
     left: 0;
 }
 
@@ -534,10 +536,11 @@ form a {
 #Indicator {
     width: 100px;
     border: none;
-     background: #ff523b;
-     height: 3px;
-     margin-top: 8px;
-     transform: translateX(100px);
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
 }
 
 
@@ -572,7 +575,7 @@ form a {
         display: block;
         cursor: pointer;
     }
-    
+
 }
 
 /*- --------media query for less than 600 size------*/
@@ -583,8 +586,10 @@ form a {
         text-align: center;
     }
 
-    .col-2, .col-3, .col-4 {
-        flex-basis: 100% ;
+    .col-2,
+    .col-3,
+    .col-4 {
+        flex-basis: 100%;
     }
 
     .single-products .row {
@@ -594,10 +599,12 @@ form a {
     .single-products .col-2 {
         padding: 20px 0;
     }
+
     .single-products h1 {
         font-size: 24px;
         line-height: 32px;
     }
+
     .cart-info p {
         display: none;
     }
