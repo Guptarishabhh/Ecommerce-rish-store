@@ -23,7 +23,7 @@
     width: 0;
   }
   to {
-    width: 15ch;  /* match the no. of characters */
+    width: 20ch;  /* match the no. of characters */
   }
 }
 
