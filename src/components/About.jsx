@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import rishu from '../assets/rishu.jpg'
+import rishu from '../assets/rishupro.png'
 import { CodeXml, Lightbulb, Paintbrush } from 'lucide-react';
 
 const About = () => {

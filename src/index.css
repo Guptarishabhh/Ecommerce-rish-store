@@ -1,11 +1,21 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+/* 1. At the very top */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Saira:ital,wght@0,100...');
 
+/* 2. Your variables or resets */
+:root {
+  --main-color: #333;
+}
 
+/* 3. The rest of your 1000+ lines of code */
 * {
   font-family: 'Saira', sans-serif;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
   
 
 

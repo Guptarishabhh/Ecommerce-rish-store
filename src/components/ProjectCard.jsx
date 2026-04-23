@@ -34,7 +34,7 @@ const ProjectCard = ({ title, description, image, tech }) => {
                         <span
                             key={index}
                             className='text-[12px] uppercase tracking-widest font-bold bg-[#121212]
-                             text-purple-400 px-3 py-1.5 rounded-lg border border-purple-500/10'
+                             text-purple-400 px-3 py-1.5 rounded-lg border border-purple-500/10 mb-4'
                         >
                             {item}
                         </span>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { div } from 'framer-motion/client'
-import profile from '../assets/rishupro.jpg'
+import profile from '../assets/rishupro.png'
 
 const Hero = () => {
     return (
