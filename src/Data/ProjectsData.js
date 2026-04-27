@@ -12,7 +12,7 @@ const projectsData = [
     image: portfolioprojectimg, // Now proj1 is defined!
     tech: ["React", "Tailwind Css", "Framer Motion"],
     demoLink: "https://rishabhportfolio-five.vercel.app", // Add your link here
-    codeLink: "#"
+    codeLink: "https://github.com/Guptarishabhh/rishabh-portfolio"
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ const projectsData = [
     description: "Dynamic website with user authentication, profile management, post creation, Integrated MYSQL database for data storage.",
     image: datingprojectimg,
     tech: ["HTML/CSS", "JAVASCRIPT", "BOOTSTRAP", "PHP", "SQL"],
-    demoLink: "#", // Add your link here
-    codeLink: "#"
+    demoLink: "turulove.wuaze.com", 
+    codeLink: "https://github.com/Guptarishabhh/Dating-website"
   },
   {
     id: 3,
@@ -30,14 +30,16 @@ const projectsData = [
     image: wheatherprojectimg,
     tech: ["HTML/CSS", "JAVASCRIPT", "BOOTSTRAP"],
      demoLink: "https://wheather-forcasting-webpage2k25.vercel.app", // Add your link here
-    codeLink: "#"
+    codeLink: "https://github.com/Guptarishabhh/wheather-forcasting-webpage"
   },
    {
     id: 4,
     title: "E-commerce Website",
     description: "Personal portfolio built with React and Tailwind.",
     image: rishstoreimg, 
-    tech: ["HTML/CSS", "JAVASCRIP", "BOOTSTRAP"]
+    tech: ["HTML/CSS", "JAVASCRIP", "BOOTSTRAP"],
+     demoLink: "https://ecommerce-rish-store.vercel.app", // Add your link here
+    codeLink: "https://github.com/Guptarishabhh/Ecommerce-rish-store"
   }
 ];
 
