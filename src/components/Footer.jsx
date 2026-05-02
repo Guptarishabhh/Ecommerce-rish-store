@@ -14,8 +14,8 @@ const Footer = () => {
 
           {/* Center: Navigation/Socials */}
           <div className="flex space-x-8 text-sm font-medium">
-            <a href="#" className="hover:text-white transition-colors">Github</a>
-            <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
+            <a href="https://github.com/Guptarishabhh" className="hover:text-white transition-colors">Github</a>
+            <a href="https://www.linkedin.com/in/rishabh-gupta-b30274251" className="hover:text-white transition-colors">LinkedIn</a>
             <a href="#" className="hover:text-white transition-colors">Twitter</a>
           </div>
 
