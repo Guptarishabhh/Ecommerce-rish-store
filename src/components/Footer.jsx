@@ -32,7 +32,7 @@ const Footer = () => {
 
         <div className="mt-10 pt-8 border-t border-white/5 text-center md:text-left">
           <p className="text-[10px] text-gray-600 uppercase tracking-widest">
-            © 2026 • Crafted with passion
+            © 2026 • Crafted with passion.
           </p>
         </div>
       </div>
